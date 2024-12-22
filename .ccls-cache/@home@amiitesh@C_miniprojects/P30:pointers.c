@@ -14,4 +14,7 @@ int main(){
 
   *pa = 10;  // Changes the value of 'a' through the pointer which changes the value of 'a' at the memory address level
   printf("Updated value of a: %d\n", a); // It prints the value: 10
+  
+  printf("Size of a: %d", sizeof(a));
+  printf("Size of pa (pointer): %d", sizeof(pa)); // The size of a pointer is 8 bytes that is enough to store a hexadecimal number
 }

@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int fibonacci(int n){
-	int a = 0; b = 0, temp;
+void fibonacci(int n){
+	int a = 0;
+	int b = 1;
+	int temp;
 	
 	printf("Fibonacci Series: %d, %d", a, b);
 
@@ -11,7 +13,7 @@ int fibonacci(int n){
 		a = b;
 		b = temp;
 	}
-	return 0;
+	printf("\n");
 }
 int main(){
 	int n;
